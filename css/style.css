@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#header{
+    background-image: linear-gradient(to left, red, blue);
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    text-decoration: none;
+    font-size: 5em;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 7%;
+    border: 2px solid black;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+}
+.header-text{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+.header-text h1{
+    font-size: 3em;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header-text p{
+    font-size: 1.8em;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header-btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+/*-------COURSES--------*/
+#courses{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.courses-col{
+    flex-basis: 30%;
+}
+.courses-col img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#courses h2{
+    font-size: 3em;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#courses h3{
+    font-size: 3em;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*----------About-------*/
+#about{
+    width: 90%;
+    margin: auto;
+}
+#about h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+#about h2{
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+#about P{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-col{
+    flex-basis: 45%;
+}
+.about-col img{
+    width: 100%;
+    margin-top: 80px;
+}
+.about-col ul li{
+    line-height: 30px;
+    margin-left: 20px;
+}
+.about-btn{
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+.about-btn:hover{
+    background: red;
+}
+
+/*-------our background-----*/
+#ourbackground{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#ourbackground h1{
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+#ourbackground h2{
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    color: black;
+}
+#ourbackground p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.ourbackground-col{
+    flex-basis: 45%;
+}
+.ourbackground-col img{
+    width: 100%;
+}
+
+/*-----team members-----*/
+#team-members{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#team-members h1{
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.team-members-col{
+    flex-basis: 30%;
+}
+.team-members img{
+    width: 100%;
+}
+.team-members h2{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.team-members h3{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+#team-members p{
+    margin-top: 15px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter{
+    font-size: 1.5em;
+    padding: 10px;
+    background: grey;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*------partners-------*/
+
+#partners{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#partners h1{
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    margin-top:30px;
+    text-transform: capitalize;
+}
+.partners-col{
+    flex-basis: 30%;
+}
+.partners-col img{
+    width: 100%;
+}
+
+/*-----contact-----*/
+#office{
+    width: 90%;
+    margin: auto;
+}
+.office-col{
+    width: 45%;
+}
+.office-col h2{
+    font-size: 1.8em;
+    color: black;
+    padding-bottom: 20px;
+}
+.office-col p{
+    line-height: 30px;
+}
+.office-col input{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
+}
+.btn-send{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*------location--------*/
+#location{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#location h1{
+    font-size: 2.8em;
+}
+
+/*-----footer-----*/
+#footer{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
